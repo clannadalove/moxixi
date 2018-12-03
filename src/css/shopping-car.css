@@ -1,0 +1,29 @@
+#car_main .container {
+  background: #fff;
+  clear: both; }
+#car_main .car_up {
+  padding-top: 35px; }
+  #car_main .car_up .car0 {
+    line-height: 55px;
+    text-align: center;
+    display: none; }
+#car_main .c_lunbotu {
+  margin: 38px auto auto auto; }
+  #car_main .c_lunbotu .c_tit {
+    width: 1200px;
+    height: 33px;
+    margin: 0px auto;
+    background: url(../images/lun3.jpg) repeat-x bottom left; }
+    #car_main .c_lunbotu .c_tit ul li {
+      color: #f86f76;
+      background: #ffffff;
+      border-top: 1px solid #d3d3d3;
+      border-left: 1px solid #d3d3d3;
+      border-right: 1px solid #d3d3d3;
+      display: inline;
+      padding: 10px 28px;
+      font-size: 14px;
+      float: left;
+      cursor: pointer; }
+
+/*# sourceMappingURL=shopping-car.css.map */

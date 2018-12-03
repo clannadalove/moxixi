@@ -1,0 +1,118 @@
+#main{
+.container{height: 597px;min-height:200px;padding-bottom:120px;margin-bottom:20px;}
+        .regist-btn{
+                    float:right;
+                    width: 99%;
+                    margin-left:1px;
+                    cursor:pointer;
+                    div{width: 320px;
+                        height: 34px;
+                        background-color:#fff;
+                        text-align:center;
+                        line-height: 34px;
+                        border:1px solid #ccc;
+                        font-size: 17px;
+                        color:#666;}   
+                }
+        .Link{width: 550px;
+              margin-left: 0%;
+              float:left;
+              .link_to{margin-top:30px;
+                    tbody{
+                        tr{
+                          td{padding-bottom: 15px;
+                             padding-left: 10px;
+                             line-height: 100%;
+                             vertical-align:bottom;
+                            }
+                        }   
+                    }                 
+            }
+            .link_up{
+                 width: 126%;
+                 text-align: center;
+                 font-size: 24px;
+                 color:#999;
+                 font-weight: bold;
+                 margin-top:15px;
+                 padding-bottom:5px;
+                }
+            
+            .table_to1{
+                width: 140px;
+                float:left;
+                padding-top:20px;}
+            .table_to2{
+                width: 310px;
+                height: 30px;
+                line-height: 30px;
+                background-color: #FFFFFF;
+                border: #cccccc solid 1px;
+                padding-left: 20px;
+                color: #666666;
+                font-size: 15px;}
+            .table_to3{padding-right:48px;padding-bottom: 25px;}    
+                 
+        }
+        .Login{
+          width: 50%;
+          float:left;
+          text-align:left;
+          .Login_start{width: 100%;
+                      text-align: center;
+                      font-size: 24px;
+                      color: #999999;
+                      font-weight: bold;
+                      margin-top: 15px;
+                      padding-bottom: 5px;}          
+          .Login_tab{width: 250px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    text-align: center;
+                    padding-left: 50px;
+                    li{width: 100px;float:left;line-height: 30px;border:1px solid #ddd;
+                        a{line-height: 30px;display:block;width: 100%;color:#333;}
+                    }
+                    .selected{background:#EC8D36;
+                    color:#fff;
+                    border:1px solid #EC8D36;
+                     border-right: none; 
+                    a{color:#fff;}
+                  } 
+                  }
+          .Login_email{margin-top:30px;
+                          tbody{
+                                tr{
+                                  td{padding-bottom: 15px;
+                                     padding-left: 10px;
+                                     line-height: 100%;
+                                     vertical-align:bottom;
+                                    }
+                                }   
+                            }      
+                      }
+          .Login_to1{width: 170px;float:left;padding-top:20px;text-align:right;}
+          .Login_to2{width: 310px;height: 30px;
+                      line-height: 30px;
+                      background-color:#fff;
+                      border:1px solid #ccc;
+                      padding-left: 20px;
+                      color:#666;
+                      font-size: 15px;
+                    }
+          .Login_to3{width: 40px;height: 25px;outline:none;border:0px;float:left;}               
+                    
+        }
+        .Login_phone{margin-top:30px;
+                   tbody{
+                        tr{
+                          td{padding-bottom: 15px;
+                             padding-left: 10px;
+                             line-height: 100%;
+                             vertical-align:bottom;
+                            }
+                        }   
+                    }    
+              }  
+    
+}

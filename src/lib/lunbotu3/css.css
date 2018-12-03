@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+#box {
+	display: block;
+    width: 1198px;
+    margin: 0px auto;
+    background: #ffffff;
+    padding: 34px 0px 34px 0px;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    overflow: hidden;
+    position: relative;
+    height: 260px;
+}
+
+
+/*li:200px*/
+
+
+/*图片的样式*/
+
+#box #imglist {
+	display: block;
+    width: 1198px;
+    height: 210px;
+    position: relative;
+}
+
+#box #imglist ul {
+	display: block;
+    width: 1142px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#box #imglist li {
+	display: block;
+    width: 190px;
+    cursor: pointer;
+    padding: 6px 28px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+
+}
+#box #imglist li  img{
+	width: 135px;
+	height: 135px;
+}
+#box #imglist li p{
+	width: 135px;
+    margin: auto;
+    padding: 5px 0px;
+}
+#box #imglist li span{
+	 display: block;
+    width: 135px;
+    margin: auto;
+    text-align: center;
+    color: #e43b36;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*焦点的样式*/
+
+#light {
+	width: 1200px;
+	height: 20px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+}
+
+#light span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #D8D8D8;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+#light span.active {
+	background: orange;
+}
+
+
+/*左右按钮*/
+
+#posibtn {
+	width: 1200px;
+	height: 50px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#posibtn p {
+	width: 50px;
+	height: 50px;
+	background: #004AB3;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+#posibtn p:nth-child(1) {
+	display: block;
+    width: 53px;
+    height: 329px;
+    position: absolute;
+    top: -139px;
+    cursor: pointer;
+	left: 0px;
+    background: url(../../images/e_l.png) #fff no-repeat center center;
+}
+
+#posibtn p:nth-child(2) {
+	display: block;
+    width: 53px;
+    height: 329px;
+    position: absolute;
+    top: -139px;
+    cursor: pointer;
+	right: 0px;
+    background: url(../../images/e_r.png) #fff no-repeat center center;
+}

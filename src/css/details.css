@@ -1,0 +1,303 @@
+#goodlist .container {
+  height: 2468px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  clear: both;
+  min-height: 200px;
+  padding-bottom: 120px; }
+#goodlist .shed {
+  padding: 8px 5px 8px 5px;
+  line-height: 18px;
+  clear: both; }
+#goodlist .list_l {
+  width: 210px;
+  padding-bottom: 50px;
+  float: left; }
+  #goodlist .list_l .hot_sell {
+    width: 208px;
+    height: auto;
+    border: solid 1px #CCCCCC; }
+    #goodlist .list_l .hot_sell .hd {
+      height: 36px;
+      line-height: 36px;
+      padding: 0 14px;
+      border-bottom: 1px solid #CCCCCC;
+      font-size: 14px;
+      font-weight: 400;
+      background-color: #fafafa;
+      margin: 0; }
+    #goodlist .list_l .hot_sell .hd_list {
+      width: 208px;
+      padding: 0 14px;
+      overflow: hidden;
+      margin: 0 auto;
+      padding-left: 0; }
+      #goodlist .list_l .hot_sell .hd_list li {
+        padding: 10px 0 0 0;
+        width: 208px; }
+  #goodlist .list_l .give {
+    font: 12px/1.5 '\5fae\8f6f\96c5\9ed1', 'Lucida Grande', Arial, '\5b8b\4f53';
+    padding: 0 14px;
+    display: block;
+    height: 36px;
+    margin: 0;
+    line-height: 18px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  #goodlist .list_l .ssimg {
+    padding: 0 54px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 6px; }
+  #goodlist .list_l .price {
+    display: block;
+    margin: 6px 14px;
+    font-size: 13px;
+    color: #F86F76;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee; }
+#goodlist .list_r {
+  width: 970px;
+  padding-bottom: 25px;
+  float: right; }
+  #goodlist .list_r .paixu {
+    border: solid 1px #ddd;
+    margin-top: 8px;
+    padding-left: 8px;
+    height: 42px; }
+    #goodlist .list_r .paixu .pai_l {
+      float: left; }
+      #goodlist .list_r .paixu .pai_l h4 {
+        float: left;
+        display: inline-block;
+        padding: 5px 2px 8px 3px;
+        line-height: 25px; }
+      #goodlist .list_r .paixu .pai_l li {
+        float: left;
+        display: inline-block;
+        padding: 5px 2px 8px 3px;
+        line-height: 25px; }
+        #goodlist .list_r .paixu .pai_l li a {
+          display: block;
+          line-height: 25px;
+          padding: 0px 15px 0px 10px;
+          border: solid 1px #ddd;
+          color: #fff; }
+    #goodlist .list_r .paixu .asc, #goodlist .list_r .paixu .dasc {
+      position: relative; }
+      #goodlist .list_r .paixu .asc a, #goodlist .list_r .paixu .dasc a {
+        background: #F64900;
+        border: 1px solid #E4393C;
+        font-weight: 700;
+        padding-right: 18px; }
+    #goodlist .list_r .paixu .asc i {
+      font-size: 0px;
+      height: 11px;
+      overflow: hidden;
+      position: absolute;
+      right: 8px;
+      top: 12px;
+      width: 9px;
+      background-image: url(http://images.moximoxi.com/details/201408/2517590616.png);
+      background-repeat: no-repeat;
+      background-position: 0px -12px; }
+    #goodlist .list_r .paixu .dasc i {
+      font-size: 0px;
+      height: 11px;
+      overflow: hidden;
+      position: absolute;
+      right: 8px;
+      top: 12px;
+      width: 9px;
+      background-image: url(http://images.moximoxi.com/details/201408/2517590616.png);
+      background-repeat: no-repeat; }
+    #goodlist .list_r .paixu .pai_r {
+      width: 350px;
+      margin-left: 25px;
+      float: left; }
+      #goodlist .list_r .paixu .pai_r h4 {
+        float: left;
+        display: inline-block;
+        padding: 5px 2px 8px 3px;
+        line-height: 25px; }
+      #goodlist .list_r .paixu .pai_r li {
+        float: left;
+        display: inline-block;
+        padding: 5px 2px 8px 3px;
+        line-height: 25px; }
+        #goodlist .list_r .paixu .pai_r li input {
+          width: 40px;
+          border: 1px solid #ddd;
+          padding: 0;
+          margin: 0;
+          line-height: 20px;
+          height: 20px;
+          text-align: center; }
+    #goodlist .list_r .paixu .ccbtn {
+      display: block;
+      line-height: 22px;
+      padding: 0px 10px 0px 10px;
+      border: solid 1px #ddd;
+      color: #333; }
+  #goodlist .list_r .select_list .list_shop {
+    position: relative;
+    overflow: visible;
+    width: 223px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: solid 4px #fff;
+    height: 240px;
+    float: left;
+    margin: 10px 0px 0px 9px;
+    min-height: 240px; }
+  #goodlist .list_r .select_list .list_shop:hover {
+    border-color: #dddddd; }
+  #goodlist .list_r .select_list .s_tu {
+    text-align: center;
+    height: 165px;
+    line-height: 165px;
+    overflow: hidden;
+    margin-top: 5px;
+    vertical-align: middle; }
+    #goodlist .list_r .select_list .s_tu a {
+      height: 100%;
+      border: none;
+      line-height: 150px;
+      display: block; }
+  #goodlist .list_r .select_list .s_price {
+    text-align: center;
+    line-height: 18px;
+    height: 22px;
+    margin: 0px 0px 0px 0px; }
+    #goodlist .list_r .select_list .s_price strong {
+      width: auto;
+      float: none;
+      line-height: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #990033; }
+  #goodlist .list_r .select_list .s_show a {
+    width: 214px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    color: #333;
+    height: 40px;
+    padding-left: 7px;
+    text-indent: 2em; }
+  #goodlist .list_r .pager {
+    clear: both;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 97%;
+    margin-right: 3%;
+    float: left;
+    font-size: 12px;
+    color: #999; }
+    #goodlist .list_r .pager .con {
+      float: right; }
+    #goodlist .list_r .pager .last {
+      float: left;
+      border: #CCCCCC 1px solid;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 25px;
+      line-height: 25px;
+      margin-right: 15px;
+      background-color: #FFFFFF; }
+    #goodlist .list_r .pager .last:hover {
+      cursor: pointer;
+      background-color: #666;
+      color: #fff; }
+    #goodlist .list_r .pager .items {
+      float: left;
+      margin-right: 30px; }
+      #goodlist .list_r .pager .items .item_cur {
+        float: left;
+        margin-right: 10px;
+        border: #CCCCCC 1px solid;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 25px;
+        line-height: 25px;
+        background-color: #ccc;
+        color: #FFFFFF; }
+      #goodlist .list_r .pager .items .item {
+        float: left;
+        margin-right: 10px;
+        border: #CCCCCC 1px solid;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 25px;
+        line-height: 25px;
+        background-color: #FFFFFF; }
+      #goodlist .list_r .pager .items .item:hover {
+        background-color: #ccc;
+        color: #fff; }
+    #goodlist .list_r .pager .next {
+      float: left;
+      border: #CCCCCC 1px solid;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 25px;
+      line-height: 25px;
+      background-color: #FFFFFF; }
+    #goodlist .list_r .pager .next:hover {
+      cursor: pointer;
+      background-color: #666;
+      color: #fff; }
+    #goodlist .list_r .pager .total {
+      float: left;
+      height: 25px;
+      line-height: 25px;
+      margin-right: 50px;
+      padding-left: 10px;
+      color: #666; }
+    #goodlist .list_r .pager .total:hover {
+      color: red; }
+    #goodlist .list_r .pager .to {
+      float: left;
+      height: 25px;
+      line-height: 25px;
+      margin-right: 10px;
+      padding-left: 10px;
+      color: #666; }
+      #goodlist .list_r .pager .to input {
+        border: #ccc solid 1px;
+        height: 22px;
+        width: 33px;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+    #goodlist .list_r .pager .to:hover {
+      color: red; }
+    #goodlist .list_r .pager .ensur {
+      float: left;
+      height: 25px;
+      line-height: 25px;
+      padding-left: 0px;
+      margin-left: 0px;
+      color: #999; }
+    #goodlist .list_r .pager .ensur:hover {
+      color: red; }
+  #goodlist .list_r .ll1 {
+    padding: 3px 5px 3px 15px;
+    clear: both; }
+  #goodlist .list_r .ll2 {
+    background: #ffc;
+    color: #f60;
+    line-height: 22px;
+    padding: 3px 5px 3px 15px;
+    border: solid 1px #ddd; }
+    #goodlist .list_r .ll2 a {
+      color: #f60;
+      font-weight: bold; }
+
+/*# sourceMappingURL=details.css.map */
